@@ -1,0 +1,75 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+/*margin, padding properties*/
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+/*align, justify shortcuts*/
+.text-center{
+    text-align: center;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-center{
+    justify-content:center;
+}
+
+/*flex properties*/
+.flex{
+    display: flex;
+}
+.flex-direction-row{
+    flex-direction: row;
+}
+.flex-direction-column{
+    flex-direction: column;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+
+/*font properties*/
+.font-bold{
+    font-weight: bold;
+}
+
+
+
+/*button CSS*/
+.btn{
+    padding: 4px 12px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    color: white;
+    background-color: mediumslateblue;
+    cursor: pointer;
+
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}

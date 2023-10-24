@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    height: 67px;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    margin: 0px 12px;
+}
+
+.section1{
+    height: 80vh;
+}
+.top-left{
+    width: 50%;
+}
+.dumbell-icon{
+    width: 89px;
+}
+.top-right{
+    width: 50%;
+}
+.top-right img{
+    max-height: 80vh;
+    max-width: 50vw;
+}
+.box{
+    border: 5px solid rgb(5, 255, 243);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 20vw;
+    margin: 50px;
+}
+.box ul{
+    list-style-type: none;
+    
+}
+.box ul li{
+    margin: 2px 10px;
+    padding: 6px 15px;
+    border-radius: 40% 10%;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: small;
+}
+
+.table{
+    width: 100%;
+    margin: 50px 0px;
+}
+tr{
+    height: 50px;
+}
+td{    
+    border-bottom: 1px solid grey;
+}
+
+.section3{
+    padding: 30px;
+}
+
+footer{
+    padding: 23px;
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+nav{
+    background-color:darkblue;
+    color: white;
+    height: 50px;
+    font-size: 29px;
+    align-items: center;
+    display: flex;
+    padding: 0px 12px;
+    font-family: 'Courgette';
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.gameContainer{
+    display:grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    flex: 0 0 300px;
+    padding: 50px;
+    margin: 0 40px;
+    justify-content: center;
+    background-color: blue;
+    border-radius: 50px;
+    
+}
+
+.gameInfo{
+    padding: 50px;
+    justify-content: center;
+}
+.info{
+    display:flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.info span{
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    background-color: blue;
+}
+
+.box{
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: white;
+}
+.box:hover{
+    cursor: pointer;
+}
+
+.box-value{
+    font-family: 'Nanum Pen Script';
+}
+
+.box:nth-child(6) ~ .box{
+    border-bottom: none;
+}
+.box:nth-child(3n){
+    border-right: none;
+}
+
+@media screen and (max-width: 860px){
+    .container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 600px){
+    .gameInfo h1{
+        font-size: large;
+    }
+
+    .info span{
+        font-size: medium;
+    }
+
+    .gameContainer{
+        grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 20vw);
+    padding: 5vw;
+    margin: auto;
+    }
+
+    .box{
+        font-size: 20vw;
+    }
+}
+@media screen and (max-width: 385px){
+    .gameInfo h1{
+        font-size: medium;
+    }
+
+    .info span{
+        font-size:small;
+    }
+
+    .gameContainer{
+        width: 80%;
+    padding: 5vw;
+    margin: 0 10vw;
+    }
+
+    .box{
+        font-size: 20vw;
+    }
+}

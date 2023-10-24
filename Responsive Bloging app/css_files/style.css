@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 123px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+}
+.content{
+    height: 123px;
+    background-color: rgb(255, 234, 0); 
+}
+.footer{
+    height: 123px;
+    background-color: rgb(149, 255, 0);
+}
